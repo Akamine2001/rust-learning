@@ -1,0 +1,35 @@
+# Rust
+/target
+**/target/
+**/*.rs.bk
+*.pdb
+
+# Environment
+.env
+.env.local
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets / credentials
+*.pem
+*.key
+*.crt
+*.p12
+*.token
+secrets/
+credentials.json
+.aws/
